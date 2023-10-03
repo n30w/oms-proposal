@@ -1,0 +1,34 @@
+1. Potential Security Risk Ahead
+
+2. Design Language and Theory
+
+
+Concepts:
+User Interface and User Experience
+Robustness and Dependability
+
+There are three categories of reasoning for the selection of services and methods discussed in this proposal:
+
+1. User Interface and User Experience
+2. Robustness and Dependability
+3. Longevity and Future-proof
+
+Each service will have accompanying explanations of how and why it qualifies as sufficient for each category.
+
+
+Cloudflare
+Cloudflare is a company that services and maintains digital internet infrastructure across the globe. Because of this, they also provide services we're particularly interested in, such as DNS registrars, static site hosting, image/video storage, and many others of that variety.
+
+The user interface and user experience is simple and clear: access to different settings and functions is clearly labeled. In the event that something may be unclear, their online documentation and blog is accessible and digestible for the average layman. 
+
+The services they provide are robust, dependable, and future-proof because a sizable majority of the internet flows through their channels. Simply put, cloud security and internet infrastructure is their domain. It's serious stuff.
+
+Timeline:
+
+Phase 0: Repair
+
+Phase 1: Design
+
+Phase 2: Develop
+
+Phase 3: Teach
