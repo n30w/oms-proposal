@@ -1,0 +1,54 @@
+\section{Project Timeline}
+The entire project consists of four phases: Repair, Design, Develop, and Teach.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.45]{diagrams/Phases.png}
+    \caption{A simple graphic visualizing the phases.}
+    \label{fig:phases}
+\end{figure}
+
+The actual deadlines or sequential months are not given in figure~\ref{fig:phases}. This should merely serve as a simplified timeline visualization.
+
+\subsection{Repair}
+This is a crucial phase that must happen as soon as possible. The goal of this phase is to fix the constant error that appears when visiting the site, as seen in figure~\ref{fig:psra}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.3]{pictures/securityriskahead.png}
+    \includegraphics[scale=0.3]{pictures/potentialsecurityrisk2.png}
+    \caption{Flavors of the security warning, first in Firefox and next in Safari.}
+    \label{fig:psra}
+\end{figure}
+
+For some context, I became interested in fixing the domain certificate issues back when OMS had a previous director by the name of Keigan, who I do not recall the last name of.
+
+This is a backend issue, an issue with the website's certificate. An issue that should be addressed as soon as possible since it manifests as a problem in the frontend.
+
+\subsubsection*{Moving to Cloudflare}
+Cloudflare has a \href{https://blog.cloudflare.com/a-step-by-step-guide-to-transferring-domains-to-cloudflare/}{step-by-step guide} on their website detailing the steps and requirements to successfully switch domain registrars. In short, necessary credentials include:
+
+\begin{itemize}
+    \item Credentials for GoDaddy
+    \item Payment information to authorize domain payment
+    \item Credentials for onmagnoliasquare@gmail.com
+\end{itemize}
+
+These items will enable me to successfully transition our DNS Registrar from GoDaddy to Cloudflare. Transferring a domain between registrars will not affect the domain name or TLD. Those will be exactly the same.
+
+\subsection{Design}
+This phase takes place during the fall semester of 2023, where we will make efforts to improve the design of the website. Design does not only include the way it looks, but also the way it feels and the way its used. This new design will be an overhaul of the current design and will feature better accessibility from desktop devices to mobile phones. Included in this process are the creation of usability interviews and studies, cross-platform coherent design system diagrams, and non-functional prototypes of the site itself.
+
+\subsection{Develop}
+During this phase, real world web development takes place, meaning a combination of asset and art creation, tech systems migration, and programming.
+
+\subsection{Teach}
+This final phase is about introducing and teaching the new website's features, functionality, and management. Teaching about these pivotal changes and functionality will occur during one or two team meetings. Due to the nature of a university student's social life and educational or non-educational commitments, I will personally reach out to those responsible for publishing content or maintaining the website in order to get them up to speed. Therefore, the meetings will be a general overview, and I will have personal meetings with respective OMS committee members for their benefit.
+
+I will disseminate a reference document. One section of it will be  for any future OMS developers who want to make changes to the website, and another section for any future designers who want to make changes to the website.
+
+The developer section will contain explanations for infrastructure design decisions, common hiccups and issues one may encounter when making changes, and
+
+The entire point of this project is to get it off my hands; the maintenance of the website should be autonomous. I should not have to intervene with any issues after I graduate. However, such a high stake goal does not always manifest in the way you want it to. In the case that major issues arise that would perhaps require knowledged intervention, future OMS members are always welcome to email me in the future regarding how things work. I will be glad to teach them. Graduating from New York University Shanghai only signifies my transition from a student to a mentor. I am always willing to give back to the community that created me. I know what it is like to not know.
+
+Maintaining the infrastructure: issues of documentation and knowledge.

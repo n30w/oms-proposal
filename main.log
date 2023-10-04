@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.26)  5 OCT 2023 01:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.26)  5 OCT 2023 04:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -206,64 +206,73 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
  [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 55.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 55.
- [2]
-<pictures/chaufferexample1.png, id=110, 785.93625pt x 273.02pt>
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [2] (./introduction.tex) [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./terminology.tex [4]
+<pictures/chaufferexample1.png, id=145, 785.93625pt x 273.02pt>
 File: pictures/chaufferexample1.png Graphic file (type png)
 <use pictures/chaufferexample1.png>
-Package pdftex.def Info: pictures/chaufferexample1.png  used on input line 59.
+Package pdftex.def Info: pictures/chaufferexample1.png  used on input line 29.
 (pdftex.def)             Requested size: 314.36893pt x 109.20605pt.
- [3 <./pictures/chaufferexample1.png>] [4]
-<diagrams/Frame 1.png, id=131, 702.625pt x 301.125pt>
+ [5 <./pictures/chaufferexample1.png>]) [6] [7] (./infrastructure.tex
+<diagrams/Frame 1.png, id=173, 702.625pt x 301.125pt>
 File: diagrams/Frame 1.png Graphic file (type png)
 <use diagrams/Frame 1.png>
-Package pdftex.def Info: diagrams/Frame 1.png  used on input line 103.
+Package pdftex.def Info: diagrams/Frame 1.png  used on input line 9.
 (pdftex.def)             Requested size: 281.04501pt x 120.44786pt.
-<diagrams/Frame 2.png, id=132, 702.625pt x 301.125pt>
+<diagrams/Frame 2.png, id=174, 702.625pt x 301.125pt>
 File: diagrams/Frame 2.png Graphic file (type png)
 <use diagrams/Frame 2.png>
-Package pdftex.def Info: diagrams/Frame 2.png  used on input line 114.
+Package pdftex.def Info: diagrams/Frame 2.png  used on input line 22.
 (pdftex.def)             Requested size: 281.04501pt x 120.44786pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./diagrams/Frame 1.png>] [6 <./diagrams/Frame 2.png>]
-<pictures/securityriskahead.png, id=155, 952.55875pt x 629.35126pt>
+[8 <./diagrams/Frame 1.png>]) [9 <./diagrams/Frame 2.png>] (./roles.tex) [10] (./timeline.tex
+<diagrams/Phases.png, id=201, 702.625pt x 301.125pt>
+File: diagrams/Phases.png Graphic file (type png)
+<use diagrams/Phases.png>
+Package pdftex.def Info: diagrams/Phases.png  used on input line 6.
+(pdftex.def)             Requested size: 316.17833pt x 135.50499pt.
+<pictures/securityriskahead.png, id=204, 952.55875pt x 629.35126pt>
 File: pictures/securityriskahead.png Graphic file (type png)
 <use pictures/securityriskahead.png>
-Package pdftex.def Info: pictures/securityriskahead.png  used on input line 165.
+Package pdftex.def Info: pictures/securityriskahead.png  used on input line 18.
 (pdftex.def)             Requested size: 285.76982pt x 188.80682pt.
-<pictures/potentialsecurityrisk2.png, id=156, 782.925pt x 407.5225pt>
+<pictures/potentialsecurityrisk2.png, id=205, 782.925pt x 407.5225pt>
 File: pictures/potentialsecurityrisk2.png Graphic file (type png)
 <use pictures/potentialsecurityrisk2.png>
-Package pdftex.def Info: pictures/potentialsecurityrisk2.png  used on input line 166.
+Package pdftex.def Info: pictures/potentialsecurityrisk2.png  used on input line 19.
 (pdftex.def)             Requested size: 234.8793pt x 122.25769pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [8 <./pictures/securityriskahead.png> <./pictures/potentialsecurityrisk2.png>] [9] (./main.aux)
+[11 <./diagrams/Phases.png>] [12 <./pictures/securityriskahead.png> <./pictures/potentialsecurityrisk2.png>]) (./conclusion.tex) [13] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DB7DC78D5B86767D14349FF1CC5B87C5;2565.
+(rerunfilecheck)             Checksum: 32AFF78DEF3533DB37F796EA9598E4EB;2606.
  ) 
 Here is how much of TeX's memory you used:
- 8238 strings out of 476025
- 131540 string characters out of 5790017
+ 8291 strings out of 476025
+ 132404 string characters out of 5790017
  1859388 words of memory out of 5000000
- 28555 multiletter control sequences out of 15000+600000
- 517830 words of font info for 50 fonts, out of 8000000 for 9000
+ 28584 multiletter control sequences out of 15000+600000
+ 517223 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,1693b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (9 pages, 776951 bytes).
+ 75i,8n,76p,1713b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (13 pages, 1009661 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 52 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 

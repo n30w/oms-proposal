@@ -12,192 +12,32 @@
 
 \maketitle
 
-\begin{abstract}
-    This proposal, geared toward those without a technical background, presents services, tools, and strategies to aid On Magnolia Square's members interface with the website's aesthetic architecture, content management, and technical stability, considering the lowest common denominator of technical literacy. Each proposed service or tool consists of general information and financial costs. This proposal also describes team roles needed to complete a full transition from the current website to a new one, and concludes with a sequential phase roadmap.
-\end{abstract}
+\newpage
 
-\section{Introduction}
-This section provides purpose and explanation for the rhymes and reason for this proposal's creation.
+\renewcommand\contentsname{Summary}
+\setcounter{tocdepth}{2}
+\tableofcontents
 
-\subsection{Problem}
-For the On Magnolia Square (OMS) team, the current OMS website has an obtuse publishing workflow and unwieldy management services and tools for its maintenance. For the reader, the OMS website lacks important security fixes and a cohesive user interface and experience, consequently reducing readership and public interest.
+\newpage
 
-\subsection{Goal}
-Develop and deploy a new OMS website that will not only repair the current website's issues of security, aesthetic, and content management, but will also serve as a stable foundation on which current and future OMS members, regardless of their technical ability, may be able to create, maintain, update, and manage self-published articles, photos, and content.
+\input{introduction}
 
-\subsection{Solution}
-Use modern services and tools to achieve the aforementioned goal, while also providing proper documentation for each part of the process for future OMS members to reference.
+\newpage
 
-\section{Terminology}
-For the purpose of speaking the same language, this section introduces terminology required to understand the rest of this proposal.
+\input{terminology}
 
-\subsection{Technical Terms}
-Understanding the construction of a new website requires familiarity with website terminology. Please remember that this reading is geared toward those with non-technical backgrounds, and does not require intimate knowledge of web technologies to understand.
+\newpage
 
-The Internet is analogous to a highway: a series of roads that connect distinct locations, like your computer or mobile device, to other distinct locations, like websites and remote servers. Traveling on the highway is typically done using a web browser. Similar to a personal chauffer, a web browser prompts you for an address. Where do you want to go? That address is called the \textbf{Uniform Resource Locator (URL)}. These addresses are composed of several parts, but what matters for our purposes is the \textbf{domain name}. For instance, take this URL\@:
+\input{infrastructure}
 
-\begin{center}
-    https://www.google.com/search?q=nyu+shanghai
-\end{center}
+\newpage
 
-The domain name is \textit{google.com}. Other examples of domain names are punahou.edu, minecraft.net, or onmagnoliasquare.com. Another term that often comes up is with the term domain name is \textbf{Top Level Domain (TLD)}, which just means the two to three letter segment after the dot. For example, edu, net, and com are all TLDs. For our domain,
+\input{roles}
 
-\begin{center}
-    https://www.onmagnoliasquare.com
-\end{center}
+\newpage
 
-The domain name is \textit{onmagnoliasquare.com}. The TLD is \textit{com}.
+\input{timeline}
 
-A \textbf{domain name registrar} provides domain name registration and leasing services. There are many domain name registrars, like GoDaddy, Namecheap, or Amazon Route 53. Domain names are leased on a yearly basis. Registrars often give the option to pay for two, five, or even 10 years in advance. Our current domain name registrar for OMS is GoDaddy.
-
-Sometimes, domain name registrars offer \textbf{website hosting} services. For example, if a website was a building, some domain name registrars do not only let you register an address for your website, but they also lease a plot of land you can build your building on; they lease a physical space people can actually see and visit.
-
-Now, imagine that the web browser is your personal chauffer once again. They take your provided URL address, https://onmagnoliasquare.com, and drive you to the OMS website. Before unlocking the doors and letting you off at the location, they check in with the security at the gates. Your chauffer wants to validate that the address you provided and your current location is indeed the place that you want to be. In other words, you gave your chauffer the address for the OMS website and now that you have arrived, they want to ensure that yes, this location is actually the OMS website, or no, this is not the OMS website, and the address you provided is wrongly associated with the current location. This validation is done with a \textbf{certificate}\footnote{In technical terms, this is called an SSL X.509 Domain Validated Certificate.}, a cryptographic electronic verification validating true ownership of a domain issued by a type of organization called a \textbf{Certificate Authority (CA)}. Your chauffer rolls down the window so location security can hand over their certificate for your chauffer to inspect. Upon inspection, your chauffer will either let you off or freak out. In the case that they freak out, it is most likely for this reason: the certificate from location security is a fraud! It is self-signed, meaning it was not issued by a valid CA\@. They turn to you and say: `Hey, there's an issue: your personal security may be at risk if I let you off at this location. After inspecting this location's certificate, it appears to be self-signed. Do you still want me to drop you off here?'
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.4]{pictures/chaufferexample1.png}
-    \caption{A self-signed certificate warning in the Firefox web browser.}
-    \label{fig:chauffer1}
-\end{figure}
-
-It is up to your discretion to exit the vehicle. Such a warning would scare off many people and tell their chauffer to bring them back home.
-
-All the terms I have described thus far refer to the \textbf{backend}. It is infrastructure that our typical website reader is unaware of, nor needs to know anything about. Maintaining an online presence using a website is like hosting a theatrical play. You want an audience to come and watch. They do not care about the stagehands or the prop designers or even the words on the script or anything else happening off-stage. They care about the performance and the plot. They care about the \textbf{frontend}.
-
-The frontend is typically associated with the term \textbf{User Interface and User Experience (UI/UX)}. It simply describes the qualities of the way a user of something interfaces with it, and the experience that accompanies using that interface.
-
-For example, a wooden pencil has a simple user interface: a slightly long, cylindrical instrument beginning at a short rubbery stub, and terminating at a fine, cone-shaped tip. A pencil also has a non-problematic user experience: users can hold it in any which way they please without impairment to handwriting or drawing technique. These two characteristics of its UI/UX grant the user the ability to apply the graphite tip to a flat and markable medium in a sufficient and comfortable manner, such that any hand movements required to produce a writing or drawing can be done effectively, efficiently, and easily.
-
-In the context of our current website situation, the frontend is managed by Wordpress Content Management System (CMS). A CMS is an interface between the user, the frontend, and the backend.
-
-\subsection{Qualitative Terms}
-Each proposed backend and frontend service is chosen for its demonstration of good qualities in three categories of traits:
-
-\begin{enumerate}
-    \item Accessible
-    \item Robust
-    \item Future-proof
-\end{enumerate}
-
-Because of these traits, these services or tools can be used in the hands of a novice or experienced OMS member, with varying levels of technical ability, to achieve a satisfying outcome regardless of goal.
-
-\subsubsection*{Accessible}
-Accessible backend services boast a user friendly UI/UX\@. The OMS members operating the website in the future must have a successful and satisfying experience. Malfunction should not result from bad design. Accessibility also means that technical literature on the service is easily accessible from online documentation, online forms, or tech support.
-
-\subsubsection*{Robust}
- A robust service is one that must be able to be kicked and tossed to the ground without compromise to its dependability. It is also mistake agnostic – an ignorant mistake or a well conceived blunder by an OMS member using the service will not hinder the service's reliability to display the website to our audience. In the case where an issue occurs, information to fix it is readily accessible.
-
- Robust services also beget high standards of security, in the form of accessible user access management systems, multi-factor authentication, or reliable customer support.
-
-\subsubsection*{Future-proof}
-Regardless of a service's accessibility and robustness, if it will not exist in the future, it is not employable in the present. Future members members must be able to access and use the service. I have chosen services created by strong and reputable companies in their respective technical circles, such that if a breaking change for their customers were to ever emerge down the line, a warning or notice will have been announced several months beforehand. This gives time for members to explore other service solutions.
-
-\section{Infrastructure}
-This section will discuss the current backend and frontend services and how they are put together. Then it will propose new and better backend and frontend services that will enable the smooth operation of maintaining the website's infrastructure, development, and content.
-
-\subsection{Current Infrastructure Plan}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.4]{diagrams/Frame 1.png}
-    \caption{An End-To-End (E2E) infrastructure plan.}
-    \label{fig:frame1}
-\end{figure}
-
-Our current infrastructure uses GoDaddy as an end-to-end (e2e) solution.
-
-\subsection{Proposed Infrastructure Plan}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.4]{diagrams/Frame 2.png}
-    \caption{A best-of-breed infrastructure.}
-    \label{fig:frame2}
-\end{figure}
-
-
-My proposed infrastructure uses a best-of-breed solution.
-
-\subsection{Proposed Services and Tools}
-
-\subsection{Cloudflare}
-Cloudflare is a company that services and maintains digital cloud infrastructure across the globe. Cloudflare has good qualities in the three trait categories. Cloudflare is accessible: the UI/UX is simple and clear. Access to different settings and functions is clearly labeled. In the event that something may be unclear, their \href{https://developers.cloudflare.com}{online documentation}\footnote{https://developers.cloudflare.com} and \href{https://blog.cloudflare.com/}{blog}\footnote{https://blog.cloudflare.com} is accessible and digestible. The services they provide are robust, dependable, and future-proof because a sizable majority of the internet flows through their worldwide data centers. Simply put, cloud security and internet infrastructure is their domain.
-
-Because of this, they provide backend service products we're particularly interested in, such as their registrar and photo storage.
-
-
-\subsubsection*{Domain Registrar}
-Compared to our current registrar GoDaddy, Cloudflare's product named `Registrar' is superior in many ways.
-
-Please note that readers who view the website will be unaware of this registrar switch – visiting the OMS URL will still display the same website content before the switch. It does not affect the frontend.
-
-\subsubsection*{Image Storage and Hosting}
-
-\subsubsection{Price Breakdown}
-
-\subsection{Sanity.io}
-
-\subsection{Vercel}
-
-\section{Roles}
-I will build two teams: a design team and a tech team. The design team is responsible for creating the new UI/UX for the website. The tech team is responsible for code and technical utilities. The roles between each team is fluid. Those on the tech team can also work on the design team and vice versa. Members on each team will be selected and verified of their qualification for their prospective team by me, Neo Alabastro, and our current student director, Eva Weisenfeld.
-
-I take the role of a delegate between three points of interest: technology, design, and accessibility. This project will not be the product of my own doing, but rather the collective effort of people with extensive skill sets in distinct disciplines. Therefore, my responsibility is to help them synthesize their work into a final product. In the case that I am unable to find certain people able to do certain types of specialized tasks, I will be responsible for that task's completion.
-
-\subsection{Recruiting}
-
-\section{Project Timeline}
-The entire project consists of four phases:
-
-\begin{enumerate}
-    \item Repair
-    \item Design
-    \item Develop
-    \item Teach
-\end{enumerate}
-
-\subsection{Repair}
-This is a crucial phase that must happen as soon as possible. The goal of this phase is to fix the constant error that appears when visiting the site, as seen in figure~\ref{fig:psra}.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.3]{pictures/securityriskahead.png}
-    \includegraphics[scale=0.3]{pictures/potentialsecurityrisk2.png}
-    \caption{Flavors of the security warning, first in Firefox and next in Safari.}
-    \label{fig:psra}
-\end{figure}
-
-For some context, I became interested in fixing the domain certificate issues back when OMS had a previous director by the name of Keigan, who I do not recall the last name of.
-
-This is a backend issue, an issue with the website's certificate. An issue that should be addressed as soon as possible since it manifests as a problem in the frontend.
-
-\subsubsection*{Moving to Cloudflare}
-Cloudflare has a \href{https://blog.cloudflare.com/a-step-by-step-guide-to-transferring-domains-to-cloudflare/}{step-by-step guide} on their website detailing the steps and requirements to successfully switch domain registrars. In short, necessary credentials include:
-
-\begin{itemize}
-    \item Credentials for GoDaddy
-    \item Payment information to authorize domain payment
-    \item Credentials for onmagnoliasquare@gmail.com
-\end{itemize}
-
-These items will enable me to successfully transition our DNS Registrar from GoDaddy to Cloudflare. Transferring a domain between registrars will not affect the domain name or TLD. Those will be exactly the same.
-
-\subsection{Design}
-This phase takes place during the fall semester of 2023, where we will make efforts to improve the design of the website. Design does not only include the way it looks, but also the way it feels and the way its used. This new design will be an overhaul of the current design and will feature better accessibility from desktop devices to mobile phones. Included in this process are the creation of usability interviews and studies, cross-platform coherent design system diagrams, and non-functional prototypes of the site itself.
-
-\subsection{Develop}
-During this phase, real world web development takes place, meaning a combination of asset and art creation, tech systems migration, and programming.
-
-\subsection{Teach}
-This final phase is about introducing and teaching the new website's features, functionality, and management. This will simply be a meeting to discuss the pivotal changes, as well as a reference document detailing simple steps and informational material needed for the website's upkeep.
-
-The reference document in particular will have one section for any future OMS developers who want to make changes to the website, and another section for any future designers who want to make changes to the website.
-
-The developer section will contain explanations for infrastructure design decisions, common hiccups and issues one may encounter when making changes, and
-
-The entire point of this project is to get it off my hands; the maintenance of the website should be autonomous. I should not have to intervene with any issues after I graduate. However, such a high stake goal does not always manifest in the way you want it to. In the case that major issues arise that would perhaps require knowledged intervention, future OMS members are always welcome to email me in the future regarding how things work. I will be glad to teach them. Graduating from New York University Shanghai only signifies my transition from a student to a mentor. I am always willing to give back to the community that created me. I know what it is like to not know.
-
-Maintaining the infrastructure: issues of documentation and knowledge.
+\input{conclusion}
 
 \end{document}
