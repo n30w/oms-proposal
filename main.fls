@@ -1,8 +1,8 @@
-PWD /Users/neo/Desktop/oms-proposal
+PWD /Users/neo/Desktop/NYU/OMS-OCA/oms-proposal
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/neo/Desktop/oms-proposal/main.tex
+INPUT /Users/neo/Desktop/NYU/OMS-OCA/oms-proposal/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -451,6 +451,16 @@ INPUT ./pictures/chaufferexample1.png
 INPUT pictures/chaufferexample1.png
 INPUT ./pictures/chaufferexample1.png
 INPUT ./pictures/chaufferexample1.png
+INPUT ./diagrams/Frame 1.png
+INPUT ./diagrams/Frame 1.png
+INPUT diagrams/Frame 1.png
+INPUT ./diagrams/Frame 1.png
+INPUT ./diagrams/Frame 1.png
+INPUT ./diagrams/Frame 2.png
+INPUT ./diagrams/Frame 2.png
+INPUT diagrams/Frame 2.png
+INPUT ./diagrams/Frame 2.png
+INPUT ./diagrams/Frame 2.png
 INPUT ./pictures/securityriskahead.png
 INPUT ./pictures/securityriskahead.png
 INPUT pictures/securityriskahead.png

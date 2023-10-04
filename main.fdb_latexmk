@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1696342981 "/Users/neo/Desktop/oms-proposal/main.tex" "main.pdf" "main" 1696342982 0
-  "/Users/neo/Desktop/oms-proposal/main.tex" 1696342979 14846 eb22b864a55a7d6ade1cd2a340799b8f ""
+["pdflatex"] 1696439150 "/Users/neo/Desktop/NYU/OMS-OCA/oms-proposal/main.tex" "main.pdf" "main" 1696439151 0
+  "/Users/neo/Desktop/NYU/OMS-OCA/oms-proposal/main.tex" 1696439149 16885 2c5111381c2e4eec9f08ecd9232ddd10 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -76,9 +76,11 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1679871783 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1679871776 7883456 99392a3bf7a21e895f7005faecad06f0 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "main.aux" 1696342982 3456 496589f22a7d2d03dc0f9d6e550302f2 "pdflatex"
-  "main.out" 1696342982 2154 1e9c472dfe6d3ccf5664f73f6f20412a "pdflatex"
-  "main.tex" 1696342979 14846 eb22b864a55a7d6ade1cd2a340799b8f ""
+  "diagrams/Frame 1.png" 1696438778 70590 917038acf7940907269d342f0cf4f678 ""
+  "diagrams/Frame 2.png" 1696438778 71691 b829f98c12b1d9bbf92b224e68437496 ""
+  "main.aux" 1696439151 4152 5223dc8def39bd35e9826410cc015892 "pdflatex"
+  "main.out" 1696439151 2565 db7dc78d5b86767d14349ff1cc5b87c5 "pdflatex"
+  "main.tex" 1696439149 16885 2c5111381c2e4eec9f08ecd9232ddd10 ""
   "pictures/chaufferexample1.png" 1696333084 80682 6fced2c890065e26124fda76ebe13828 ""
   "pictures/potentialsecurityrisk2.png" 1696151129 496697 e7c064e26b367630f67ec855fe490371 ""
   "pictures/securityriskahead.png" 1695725846 205490 22496050f9db4a3337efe404819dec0c ""

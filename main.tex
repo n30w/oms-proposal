@@ -69,6 +69,8 @@ The frontend is typically associated with the term \textbf{User Interface and Us
 
 For example, a wooden pencil has a simple user interface: a slightly long, cylindrical instrument beginning at a short rubbery stub, and terminating at a fine, cone-shaped tip. A pencil also has a non-problematic user experience: users can hold it in any which way they please without impairment to handwriting or drawing technique. These two characteristics of its UI/UX grant the user the ability to apply the graphite tip to a flat and markable medium in a sufficient and comfortable manner, such that any hand movements required to produce a writing or drawing can be done effectively, efficiently, and easily.
 
+In the context of our current website situation, the frontend is managed by Wordpress Content Management System (CMS). A CMS is an interface between the user, the frontend, and the backend.
+
 \subsection{Qualitative Terms}
 Each proposed backend and frontend service is chosen for its demonstration of good qualities in three categories of traits:
 
@@ -91,23 +93,52 @@ Accessible backend services boast a user friendly UI/UX\@. The OMS members opera
 \subsubsection*{Future-proof}
 Regardless of a service's accessibility and robustness, if it will not exist in the future, it is not employable in the present. Future members members must be able to access and use the service. I have chosen services created by strong and reputable companies in their respective technical circles, such that if a breaking change for their customers were to ever emerge down the line, a warning or notice will have been announced several months beforehand. This gives time for members to explore other service solutions.
 
-\section{Services and Technologies}
-This section will cover services and technologies that will enable the smooth operation of maintaining the website's infrastructure, development, and content.
+\section{Infrastructure}
+This section will discuss the current backend and frontend services and how they are put together. Then it will propose new and better backend and frontend services that will enable the smooth operation of maintaining the website's infrastructure, development, and content.
+
+\subsection{Current Infrastructure Plan}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{diagrams/Frame 1.png}
+    \caption{An End-To-End (E2E) infrastructure plan.}
+    \label{fig:frame1}
+\end{figure}
+
+Our current infrastructure uses GoDaddy as an end-to-end (e2e) solution.
+
+\subsection{Proposed Infrastructure Plan}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{diagrams/Frame 2.png}
+    \caption{A best-of-breed infrastructure.}
+    \label{fig:frame2}
+\end{figure}
+
+
+My proposed infrastructure uses a best-of-breed solution.
+
+\subsection{Proposed Services and Tools}
 
 \subsection{Cloudflare}
-Cloudflare is a company that services and maintains digital internet infrastructure across the globe. Because of this, they also provide backend service products we're particularly interested in, such as their registrar and photo storage.
+Cloudflare is a company that services and maintains digital cloud infrastructure across the globe. Cloudflare has good qualities in the three trait categories. Cloudflare is accessible: the UI/UX is simple and clear. Access to different settings and functions is clearly labeled. In the event that something may be unclear, their \href{https://developers.cloudflare.com}{online documentation}\footnote{https://developers.cloudflare.com} and \href{https://blog.cloudflare.com/}{blog}\footnote{https://blog.cloudflare.com} is accessible and digestible. The services they provide are robust, dependable, and future-proof because a sizable majority of the internet flows through their worldwide data centers. Simply put, cloud security and internet infrastructure is their domain.
 
-\subsubsection{Registrar}
-Compared to our current registrar GoDaddy, Cloudflare's product named `Registrar' is superior in many ways. Users who want to access the website to view the content will be unaware of this registrar switch – visiting the OMS domain name will still display the same website content before the switch. This is a switch that will make managing the website a simpler ordeal.
+Because of this, they provide backend service products we're particularly interested in, such as their registrar and photo storage.
 
-\subsubsection{Images}
 
-\subsubsection{Qualities}
-The UI/UX of Cloudflare is simple and clear: access to different settings and functions is clearly labeled. In the event that something may be unclear, their online documentation and blog is accessible and digestible for the average layman. The services they provide are robust, dependable, and future-proof because a sizable majority of the internet flows through their worldwide data centers. Simply put, cloud security and internet infrastructure is their domain.
+\subsubsection*{Domain Registrar}
+Compared to our current registrar GoDaddy, Cloudflare's product named `Registrar' is superior in many ways.
 
-Cloudflare will also be used to host our photo storage. For extra management security, users can enable 2FA.
+Please note that readers who view the website will be unaware of this registrar switch – visiting the OMS URL will still display the same website content before the switch. It does not affect the frontend.
+
+\subsubsection*{Image Storage and Hosting}
 
 \subsubsection{Price Breakdown}
+
+\subsection{Sanity.io}
+
+\subsection{Vercel}
 
 \section{Roles}
 I will build two teams: a design team and a tech team. The design team is responsible for creating the new UI/UX for the website. The tech team is responsible for code and technical utilities. The roles between each team is fluid. Those on the tech team can also work on the design team and vice versa. Members on each team will be selected and verified of their qualification for their prospective team by me, Neo Alabastro, and our current student director, Eva Weisenfeld.
@@ -127,7 +158,7 @@ The entire project consists of four phases:
 \end{enumerate}
 
 \subsection{Repair}
-This is a crucial phase that must happen as soon as possible. The goal of this phase is to fix the constant error that appears when visiting the site, as seen in figure \ref{fig:psra}.
+This is a crucial phase that must happen as soon as possible. The goal of this phase is to fix the constant error that appears when visiting the site, as seen in figure~\ref{fig:psra}.
 
 \begin{figure}[h]
     \centering
@@ -160,6 +191,12 @@ During this phase, real world web development takes place, meaning a combination
 
 \subsection{Teach}
 This final phase is about introducing and teaching the new website's features, functionality, and management. This will simply be a meeting to discuss the pivotal changes, as well as a reference document detailing simple steps and informational material needed for the website's upkeep.
+
+The reference document in particular will have one section for any future OMS developers who want to make changes to the website, and another section for any future designers who want to make changes to the website.
+
+The developer section will contain explanations for infrastructure design decisions, common hiccups and issues one may encounter when making changes, and
+
+The entire point of this project is to get it off my hands; the maintenance of the website should be autonomous. I should not have to intervene with any issues after I graduate. However, such a high stake goal does not always manifest in the way you want it to. In the case that major issues arise that would perhaps require knowledged intervention, future OMS members are always welcome to email me in the future regarding how things work. I will be glad to teach them. Graduating from New York University Shanghai only signifies my transition from a student to a mentor. I am always willing to give back to the community that created me. I know what it is like to not know.
 
 Maintaining the infrastructure: issues of documentation and knowledge.
 
