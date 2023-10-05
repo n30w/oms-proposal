@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.26)  5 OCT 2023 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.26)  6 OCT 2023 03:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -156,24 +156,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count271
@@ -193,17 +193,17 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 7.
+Package hyperref Info: Link coloring OFF on input line 6.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 13.
  [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
@@ -228,43 +228,39 @@ File: diagrams/Frame 1.png Graphic file (type png)
 Package pdftex.def Info: diagrams/Frame 1.png  used on input line 11.
 (pdftex.def)             Requested size: 281.04501pt x 120.44786pt.
  [8 <./diagrams/Frame 1.png>]
-<diagrams/Frame 2.png, id=190, 702.625pt x 301.125pt>
+<diagrams/Frame 2.png, id=191, 702.625pt x 301.125pt>
 File: diagrams/Frame 2.png Graphic file (type png)
 <use diagrams/Frame 2.png>
-Package pdftex.def Info: diagrams/Frame 2.png  used on input line 27.
+Package pdftex.def Info: diagrams/Frame 2.png  used on input line 26.
 (pdftex.def)             Requested size: 281.04501pt x 120.44786pt.
-) (./sections/services.tex [9 <./diagrams/Frame 2.png>]
-<pictures/CloudflareMetrics.png, id=205, 661.47125pt x 570.13pt>
-File: pictures/CloudflareMetrics.png Graphic file (type png)
-<use pictures/CloudflareMetrics.png>
-Package pdftex.def Info: pictures/CloudflareMetrics.png  used on input line 12.
-(pdftex.def)             Requested size: 264.58382pt x 228.04796pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10]
-<diagrams/Sanity Diagram 1.png, id=218, 1084.05pt x 1084.05pt>
+) [9 <./diagrams/Frame 2.png>] (./sections/services.tex
+<diagrams/Sanity Diagram 1.png, id=200, 1084.05pt x 1084.05pt>
 File: diagrams/Sanity Diagram 1.png Graphic file (type png)
 <use diagrams/Sanity Diagram 1.png>
-Package pdftex.def Info: diagrams/Sanity Diagram 1.png  used on input line 31.
+Package pdftex.def Info: diagrams/Sanity Diagram 1.png  used on input line 10.
 (pdftex.def)             Requested size: 271.01184pt x 271.01184pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./pictures/CloudflareMetrics.png>]) [12 <./diagrams/Sanity Diagram 1.png>] (./sections/roles.tex) [13] (./sections/timeline.tex
-<diagrams/Phases.png, id=246, 702.625pt x 301.125pt>
+[10] [11 <./diagrams/Sanity Diagram 1.png>] [12]
+<pictures/CloudflareMetrics.png, id=248, 661.47125pt x 570.13pt>
+File: pictures/CloudflareMetrics.png Graphic file (type png)
+<use pictures/CloudflareMetrics.png>
+Package pdftex.def Info: pictures/CloudflareMetrics.png  used on input line 48.
+(pdftex.def)             Requested size: 264.58382pt x 228.04796pt.
+ [13 <./pictures/CloudflareMetrics.png>]) [14] (./sections/roles.tex) [15] (./sections/timeline.tex
+<diagrams/Phases.png, id=277, 702.625pt x 301.125pt>
 File: diagrams/Phases.png Graphic file (type png)
 <use diagrams/Phases.png>
 Package pdftex.def Info: diagrams/Phases.png  used on input line 6.
 (pdftex.def)             Requested size: 316.17833pt x 135.50499pt.
-<pictures/securityriskahead.png, id=249, 952.55875pt x 629.35126pt>
+<pictures/securityriskahead.png, id=280, 952.55875pt x 629.35126pt>
 File: pictures/securityriskahead.png Graphic file (type png)
 <use pictures/securityriskahead.png>
 Package pdftex.def Info: pictures/securityriskahead.png  used on input line 18.
 (pdftex.def)             Requested size: 285.76982pt x 188.80682pt.
-<pictures/potentialsecurityrisk2.png, id=250, 782.925pt x 407.5225pt>
+<pictures/potentialsecurityrisk2.png, id=281, 782.925pt x 407.5225pt>
 File: pictures/potentialsecurityrisk2.png Graphic file (type png)
 <use pictures/potentialsecurityrisk2.png>
 Package pdftex.def Info: pictures/potentialsecurityrisk2.png  used on input line 19.
@@ -273,23 +269,23 @@ Package pdftex.def Info: pictures/potentialsecurityrisk2.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./diagrams/Phases.png>] [15 <./pictures/securityriskahead.png> <./pictures/potentialsecurityrisk2.png>]) (./sections/conclusion.tex) [16] (./main.aux)
+[16 <./diagrams/Phases.png>] [17 <./pictures/securityriskahead.png> <./pictures/potentialsecurityrisk2.png>]) (./sections/conclusion.tex) [18] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CCDACCE90A50A6967253A59BD64BE6AC;2905.
+(rerunfilecheck)             Checksum: 0C563A33CE3F688083E95A335D4CE74F;2849.
  ) 
 Here is how much of TeX's memory you used:
- 8330 strings out of 476025
- 133482 string characters out of 5790017
+ 8346 strings out of 476025
+ 133644 string characters out of 5790017
  1859388 words of memory out of 5000000
  28603 multiletter control sequences out of 15000+600000
  517223 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,76p,1722b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (16 pages, 1149328 bytes).
+Output written on main.pdf (18 pages, 1158494 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

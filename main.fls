@@ -71,6 +71,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -380,7 +381,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -493,16 +493,16 @@ INPUT sections/services.tex
 INPUT ./sections/services.tex
 INPUT ./sections/services.tex
 INPUT sections/services.tex
-INPUT ./pictures/CloudflareMetrics.png
-INPUT ./pictures/CloudflareMetrics.png
-INPUT pictures/CloudflareMetrics.png
-INPUT ./pictures/CloudflareMetrics.png
-INPUT ./pictures/CloudflareMetrics.png
 INPUT ./diagrams/Sanity Diagram 1.png
 INPUT ./diagrams/Sanity Diagram 1.png
 INPUT diagrams/Sanity Diagram 1.png
 INPUT ./diagrams/Sanity Diagram 1.png
 INPUT ./diagrams/Sanity Diagram 1.png
+INPUT ./pictures/CloudflareMetrics.png
+INPUT ./pictures/CloudflareMetrics.png
+INPUT pictures/CloudflareMetrics.png
+INPUT ./pictures/CloudflareMetrics.png
+INPUT ./pictures/CloudflareMetrics.png
 INPUT ./sections/roles.tex
 INPUT ./sections/roles.tex
 INPUT ./sections/roles.tex
