@@ -446,36 +446,36 @@ INPUT main.toc
 INPUT main.toc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT main.toc
-INPUT ./introduction.tex
-INPUT ./introduction.tex
-INPUT ./introduction.tex
-INPUT introduction.tex
-INPUT ./introduction.tex
-INPUT ./introduction.tex
-INPUT introduction.tex
+INPUT ./sections/introduction.tex
+INPUT ./sections/introduction.tex
+INPUT ./sections/introduction.tex
+INPUT sections/introduction.tex
+INPUT ./sections/introduction.tex
+INPUT ./sections/introduction.tex
+INPUT sections/introduction.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT ./terminology.tex
-INPUT ./terminology.tex
-INPUT ./terminology.tex
-INPUT terminology.tex
-INPUT ./terminology.tex
-INPUT ./terminology.tex
-INPUT terminology.tex
+INPUT ./sections/terminology.tex
+INPUT ./sections/terminology.tex
+INPUT ./sections/terminology.tex
+INPUT sections/terminology.tex
+INPUT ./sections/terminology.tex
+INPUT ./sections/terminology.tex
+INPUT sections/terminology.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./pictures/chaufferexample1.png
 INPUT ./pictures/chaufferexample1.png
 INPUT pictures/chaufferexample1.png
 INPUT ./pictures/chaufferexample1.png
 INPUT ./pictures/chaufferexample1.png
-INPUT ./infrastructure.tex
-INPUT ./infrastructure.tex
-INPUT ./infrastructure.tex
-INPUT infrastructure.tex
-INPUT ./infrastructure.tex
-INPUT ./infrastructure.tex
-INPUT infrastructure.tex
+INPUT ./sections/infrastructure.tex
+INPUT ./sections/infrastructure.tex
+INPUT ./sections/infrastructure.tex
+INPUT sections/infrastructure.tex
+INPUT ./sections/infrastructure.tex
+INPUT ./sections/infrastructure.tex
+INPUT sections/infrastructure.tex
 INPUT ./diagrams/Frame 1.png
 INPUT ./diagrams/Frame 1.png
 INPUT diagrams/Frame 1.png
@@ -486,20 +486,37 @@ INPUT ./diagrams/Frame 2.png
 INPUT diagrams/Frame 2.png
 INPUT ./diagrams/Frame 2.png
 INPUT ./diagrams/Frame 2.png
-INPUT ./roles.tex
-INPUT ./roles.tex
-INPUT ./roles.tex
-INPUT roles.tex
-INPUT ./roles.tex
-INPUT ./roles.tex
-INPUT roles.tex
-INPUT ./timeline.tex
-INPUT ./timeline.tex
-INPUT ./timeline.tex
-INPUT timeline.tex
-INPUT ./timeline.tex
-INPUT ./timeline.tex
-INPUT timeline.tex
+INPUT ./sections/services.tex
+INPUT ./sections/services.tex
+INPUT ./sections/services.tex
+INPUT sections/services.tex
+INPUT ./sections/services.tex
+INPUT ./sections/services.tex
+INPUT sections/services.tex
+INPUT ./pictures/CloudflareMetrics.png
+INPUT ./pictures/CloudflareMetrics.png
+INPUT pictures/CloudflareMetrics.png
+INPUT ./pictures/CloudflareMetrics.png
+INPUT ./pictures/CloudflareMetrics.png
+INPUT ./diagrams/Sanity Diagram 1.png
+INPUT ./diagrams/Sanity Diagram 1.png
+INPUT diagrams/Sanity Diagram 1.png
+INPUT ./diagrams/Sanity Diagram 1.png
+INPUT ./diagrams/Sanity Diagram 1.png
+INPUT ./sections/roles.tex
+INPUT ./sections/roles.tex
+INPUT ./sections/roles.tex
+INPUT sections/roles.tex
+INPUT ./sections/roles.tex
+INPUT ./sections/roles.tex
+INPUT sections/roles.tex
+INPUT ./sections/timeline.tex
+INPUT ./sections/timeline.tex
+INPUT ./sections/timeline.tex
+INPUT sections/timeline.tex
+INPUT ./sections/timeline.tex
+INPUT ./sections/timeline.tex
+INPUT sections/timeline.tex
 INPUT ./diagrams/Phases.png
 INPUT ./diagrams/Phases.png
 INPUT diagrams/Phases.png
@@ -515,13 +532,13 @@ INPUT ./pictures/potentialsecurityrisk2.png
 INPUT pictures/potentialsecurityrisk2.png
 INPUT ./pictures/potentialsecurityrisk2.png
 INPUT ./pictures/potentialsecurityrisk2.png
-INPUT ./conclusion.tex
-INPUT ./conclusion.tex
-INPUT ./conclusion.tex
-INPUT conclusion.tex
-INPUT ./conclusion.tex
-INPUT ./conclusion.tex
-INPUT conclusion.tex
+INPUT ./sections/conclusion.tex
+INPUT ./sections/conclusion.tex
+INPUT ./sections/conclusion.tex
+INPUT sections/conclusion.tex
+INPUT ./sections/conclusion.tex
+INPUT ./sections/conclusion.tex
+INPUT sections/conclusion.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

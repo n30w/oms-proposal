@@ -1,0 +1,45 @@
+\section{Proposed Services and Tools}
+This section proposes new and better backend and frontend services that will enable the smooth operation of maintaining the website's infrastructure, development, and content. Each proposed service also includes the issue that they fix.
+
+\subsection{Cloudflare}
+Cloudflare is a company that services and maintains digital cloud infrastructure across the globe. Cloudflare has good qualities in the three trait categories. Cloudflare is accessible: the UI/UX is simple and clear. Access to different settings and functions is clearly labeled. In the event that something may be unclear, their \href{https://developers.cloudflare.com}{online documentation}\footnote{https://developers.cloudflare.com} and \href{https://blog.cloudflare.com/}{blog}\footnote{https://blog.cloudflare.com} is accessible and digestible. The services they provide are robust, dependable, and future-proof because a sizable majority of the internet flows through their worldwide data centers. Simply put, cloud security and internet infrastructure is their domain. Because of this, they provide backend service products we're particularly interested in: their registrar and photo storage.
+
+\subsubsection*{Domain Registrar}
+In the technical community, using GoDaddy is a sin; any other domain registrar is better than GoDaddy. I chose Cloudflare's product, named \textit{Registrar}, because of its metric gathering and ease of use. Cloudflare is one of several domain registrars that offer a \href{https://cloudflare.com/application-services/products/ssl/}{free certificate}\footnote{https://cloudflare.com/application-services/products/ssl/} for any domain on their platform, along with enhanced customizability for \href{https://developers.cloudflare.com/ssl/get-started}{certificate options and security}\footnote{https://developers.cloudflare.com/ssl/get-started}. Cloudflare's analytics and metrics aggregation is also top-tier.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{pictures/CloudflareMetrics.png}
+    \caption{A view of the Cloudflare Registrar domain metrics dashboard.}
+    \label{fig:metrics}
+\end{figure}
+
+Please note that readers who view the website will be unaware of this registrar switch – visiting the OMS URL will still display the same website content before the switch. It does not affect the frontend.
+
+\subsubsection*{Image Storage and Hosting}
+
+\subsubsection*{Price Breakdown}
+
+\subsection{Sanity}
+Sanity is a \textit{headless} CMS\@. Our current CMS, Wordpress, is not a headless CMS, because it has a frontend component that shows the content from the CMS to readers (§3.1, Figure~\ref{fig:frame1}). A headless CMS gives more flexibility to designers and web developers who want granular control over the UI/UX of the frontend product; the way content is displayed and the content itself are decoupled entities.
+
+\subsubsection*{Features}
+A headless CMS like Sanity may seem to separate two inseparable components of creating a website, that is publishing content and UI/UX. After all, UI/UX is a medium for the content to be displayed.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.25]{diagrams/Sanity Diagram 1.png}
+    \caption{Sanity combines components and content for the frontend.}
+    \label{fig:sanity1}
+\end{figure}
+
+Since content and UI/UX design are separated, writers and publishers will not need to treat design as an afterthought. Sanity translates the results of the collaboration between web developers and UI/UX designers into a domain in which non-technical publishers are able to design a page, regardless of the page's content, to their liking. Designers create the design of components for the web developers to implement into real code. Sanity consumes this component code and prepares it for writers and publishers to incorporate into their content on the frontend. Publishers then combine both written content and custom components to create articles or web pages that are published on the frontend. This approach can satisfy the customizability needs of the website to have a more coherent UI/UX design language, as well as future-proofing since components created now can be used well into the future.
+
+
+\subsection{Vercel}
+Vercel provides website hosting, named \textit{Vercel Frontend Cloud}, for frontend projects. Vercel manages the nitty-gritty of hosting the frontend of a website, and lets its users concentrate on the website's design, development, and code, rather than being impeded by technicalities. Vercel is accessible because \href{https://vercel.com/docs}{their documentation}\footnote{https://vercel.com/docs} for developers and management alike is easily found online.
+
+They have a very generous \href{https://vercel.com/pricing}{free tier plan}\footnote{https://vercel.com/pricing}. At this moment, we do not need the Pro Plan because the features are somewhat irrelevant to our needs. If an upgrade is ever needed in the future, I will notify those who may be of concern.
+
+
+\subsection{Worried About Certificates?}

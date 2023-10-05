@@ -1,0 +1,37 @@
+\section{Infrastructure}
+This section will discuss the current backend and frontend services and how they are put together. Each section will have a diagram depicting the system that creates the OMS website, comprised of the services involved and their interactions with each other. Arrows in each section depict the flow of content and information.
+
+\subsection{Current Infrastructure Plan}
+Our current infrastructure uses GoDaddy as an End-To-End (E2E) solution. An E2E system has a solution for every part of the process of a deployment pipeline. For us, GoDaddy accommodates the entire website publishing spectrum, beginning from the writing and drafting, to publishing and design, and concluding at the eyes of the audience. Every service is consolidated under GoDaddy making it a one-stop-shop for everything, begetting convenience for simple content management; however, this approach is prone to vendor lock-in and rigidity, which both violate the accessibility, robustness, and future-proofing qualities covered in §2.2.
+
+I suppose E2E infrastructure was implemented because the GoDaddy route at the inception of OMS (previously On Century Avenue), was a conventionally tried-and-true, albeit severely sub-par, method of website creation.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{diagrams/Frame 1.png}
+    \caption{An End-To-End (E2E) infrastructure plan.}
+    \label{fig:frame1}
+\end{figure}
+
+GoDaddy provides hosting under service \textit{cPanel}. cPanel hosts our Wordpress CMS, its accompanying text and media database, as well as the frontend. Content flows from the Wordpress dashboard, the place where publishers input text and images, into a text and media database, and then onto the frontend where readers can view the content.
+
+The current infrastructure uses archaic technology. Not only is GoDaddy frowned upon, but cPanel is as well.\ cPanel is a website hosting service that currently hosts our Wordpress CMS and frontend. Due to cPanel's age, its UI/UX is sluggish and frustrating to use.
+
+Wordpress is an old and bloated CMS. Although it may be robust (it has stood the test of time), it is slow and easy to mangle.
+
+\subsection{Proposed Infrastructure Plan}
+My proposed infrastructure uses a Best-Of-Breed (BOB) solution. A BOB system is like composing a three-piece suit from materials sourced from the best silk and cotton mills; every component that constitutes the website is the crème de la crème, or for our purposes, the ones that suit our requirements the best.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{diagrams/Frame 2.png}
+    \caption{A best-of-breed infrastructure.}
+    \label{fig:frame2}
+\end{figure}
+
+Similar to the GoDaddy E2E solution, content flows from the Sanity CMS dashboard, through to the CMS host, then to the frontend host, Vercel, which is then displayed to the reader. Multiple services interacting with one another is called decoupling, and doing this ensures flexibility. Content is content and services are services. There is no blending of the two.
+
+Using a BOB solution also enables easier diagnosis of problems that may arise in the future, because the components of the system are partitioned into discrete units with single responsibilities rather than consolidated into one box.
+
+\subsection{Ditch or Fix?}
+Rather than fixing the current infrastructure and ensuring that it maintains longevity into the future, I feel that it is better to ditch it, because the time spent attempting to fix and then ensuring future-proofing is better spent on creating new infrastructure from the bottom up. Employing modern digital solutions to publish information is always a sprinter's marathon: to achieve long term success, you must always be the quickest to adopt new tech. Therefore, our publication requires rocket boosters strapped to its back to stay relevant. That cannot be done with our current infrastructure.
