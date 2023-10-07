@@ -2,6 +2,7 @@
 \usepackage{graphicx}
 \usepackage{graphicx}
 \usepackage[hidelinks]{hyperref}
+\usepackage{float}
 \graphicspath{ {./pictures/} }
 \begin{document}
 
@@ -16,6 +17,11 @@
 \renewcommand\contentsname{Summary}
 \setcounter{tocdepth}{2}
 \tableofcontents
+
+\newpage
+
+\section*{How to Read This Document}
+I recommend a thorough read from start to finish, especially for those who are not as technically competent. Those who are technically savvy may skip §2.1. For those who are only financially curious about exact proposed costs, §4 provides financial information under each subsection. I sincerely thank you for reading my proposal, whether it be digested through thorough ganders or cursory glances.
 
 \newpage
 
@@ -39,6 +45,6 @@
 
 \input{sections/timeline}
 
-\input{sections/conclusion}
+% \input{sections/conclusion}
 
 \end{document}
